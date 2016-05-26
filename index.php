@@ -13,7 +13,6 @@ and open the template in the editor.
         PROJETO AMJ
         projeto novo
         adicionando funcionalidade
-        outra funci
-        mais uma
+        outra fun
     </body>
 </html>
