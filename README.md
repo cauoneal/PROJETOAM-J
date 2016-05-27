@@ -1,2 +1,0 @@
-# PROJETOAM-J
-PROJETO AM&amp;J

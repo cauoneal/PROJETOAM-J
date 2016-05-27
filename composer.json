@@ -1,5 +1,0 @@
-{
-"require":  {
-    "cakephp/app" : "~3.2" 
-}
-}
