@@ -43,6 +43,8 @@ class AppController extends Controller
 
         $this->loadComponent('RequestHandler');
         $this->loadComponent('Flash');
+        $this->viewBuilder()->theme('TwitterBootstrap');
+        $this->set('project_name', 'AM&J SISTEMAS');        
     }
 
     /**
@@ -57,6 +59,6 @@ class AppController extends Controller
             in_array($this->response->type(), ['application/json', 'application/xml'])
         ) {
             $this->set('_serialize', true);
-        }
+        }        
     }
 }

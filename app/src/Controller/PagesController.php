@@ -37,6 +37,7 @@ class PagesController extends AppController
      */
     public function display()
     {
+        $this->set('tile',true);
         $path = func_get_args();
 
         $count = count($path);
@@ -60,6 +61,6 @@ class PagesController extends AppController
                 throw $e;
             }
             throw new NotFoundException();
-        }
+        }        
     }
 }
